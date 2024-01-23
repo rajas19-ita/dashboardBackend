@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(
     cors({
-        origin: "https://insightsdb.netlify.app/",
+        origin: "https://insightsdb.netlify.app",
         methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
         credentials: true, // Enable credentials (cookies, authorization headers, etc.)
     })
